@@ -1,0 +1,38 @@
+{
+
+"project_info": {
+"project_number": "70724860134",
+"project_id":
+"parental-control-system-28eab",
+"storage_bucket":
+"parental-control-system-28eab.firebasesto
+rage.app"
+},
+{
+"client": [
+"client_info": {
+"mobilesdk_app_id":
+"1:70724860134:android: deca5e05a5646bc7b9e
+327",
+"android_client_info": {
+"package_name":
+"com.nabiya.childrecorder"
+}
+},
+"oauth_client": [],
+"api_key": [
+{
+"current_key":
+"AIzaSyAJVUqs74q7yL8TE2EgGE3ZrL307pKEZAU"
+}
+],
+"services": {
+"appinvite_service": {
+"other_platform_oauth_client":
+[]
+}
+}
+}
+],
+"configuration_version": "1"
+}
