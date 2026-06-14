@@ -20,8 +20,8 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
 
-    - name: Init and Generate Gradle Wrapper
-      run: gradle init --type basic --build-logic kotlin --dsl kotlin --project-name ParentalControl
+    - name: Generate Gradle Wrapper
+      run: gradle wrapper --gradle-version 8.5
 
     - name: Grant Execute Permission for Gradlew
       run: chmod +x gradlew
