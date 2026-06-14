@@ -16,11 +16,15 @@ jobs:
       with:
         distribution: 'zulu'
         java-version: '17'
-        cache: 'gradle'
+
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v4
+
+    - name: Generate Gradle Wrapper
+      run: gradle wrapper
 
     - name: Grant Execute Permission for Gradlew
       run: chmod +x gradlew
-      continue-on-error: true
 
     - name: Build Child App APK
       run: ./gradlew :child-app:assembleDebug
